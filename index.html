@@ -1,27 +1,215 @@
 <!DOCTYPE html>
+
 <html>
 
+
+
 <head>
+
   <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+
+  <title>Ładowanie os</title>
+
   <link href="style.css" rel="stylesheet" type="text/css" />
+
 </head>
 
-<body>
+
+
+<body ontouchmove="drag(event)" onmousemove="drag(event)" >
+
   <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; gap: 5px; position: absolute; top: 50vh;">
+
   <img src="https://x2.static-chomikuj.pl/res/a5ff576d24.gif" style="float: left; border: 2px solid #99B827;">
+
   <p style="font-size: 20px; color: white; user-select: none;">OS</p>
+
   </div>
+
   <div id="black"></div>
+
   <script src="script.js"></script>
 
+
+
+<div id="desktop" style="display:none ;position: absolute; z-index: 3; top: 0; left: 0; height: 100vh; width: 100vw;  color: rgba(20, 255, 2, 1); font-size: 44px;">
+
+  <div id="taskbar" style="position: fixed; bottom: 0; left: 0; width: 100vw; height: 50px; background: rgba(1, 255, 130, 1); color: rgba(20, 100, 2, 1); font-size: 24px; display: flex; justify-content: center; align-items: center;">
+
+    <span style="background-color: black; width: 100%; height: 50px; position: absolute; bottom: 0;">Trwa ładowanie paska zadań</span>
+
+  </div>
+
+  <div id="apps" onclick="document.querySelector('#thi').style.display='block'" style="margin-top: 50px; display: flex; justify-content: center; align-items: center;">
+
+    <img src="/ladowanie-OS-2-kolaboracja-main/loading.gif" alt="Aplikacja 1" style="width: 50px; height: 50px; margin: 10px; background : rgba(77, 122, 74, 1);">
+
+
+
+    
+
+  
+
+  </div>
+
+    <br>
+
+    <br>
+
+    <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;    ladowanie tapety
+
+</div>
+
+
+
+     <div id="thi" onclick="document.querySelector('#thi').style.display='none'" style="margin-left: 10vw;margin-top:10vh;display:none ;  position:absolute;z-index:8; top:0;left:0;height:80vh;width:80vw;background :rgba(20,20,20,1) ;color:rgba(200,200,200,1)  ;font-size:94%; " ><div style="padding: 20px;color:white ;background :rgba(50,50,50,1) ;" >About</div>
+
+     <pre style="white-space :pre-wrap ">
+
+       
+
+👋część jestem krystian kashumy github zrobiłem to okno i pulpit i kilka mechanil w tym systemie glównje skupiam się na
+
+
+
+html 55%
+
+js 15%
+
+css 30%
+
+
+
+🔥 Załozyciel 👋część jestem codinger-cutie 
+
+
+
+     </pre>
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="lock-screen" onclick="unlock()" style="position: absolute; z-index:999; top: 0px; left: 0px; background-color: black; display:none; width: 100vw; height: 100vh;">
+
+  <span style="position: absolute; top: 100px; left: 50vw; transform: translateX(-50%); color: white;">LOCKED</span>
+
+  <span style="position: absolute; bottom: 150px; left: 50vw; transform: translateX(-50%); color: white;">Kliknij aby odblokować</span>
+
+</div>
+
+
+
   <!--
+
   This script places a badge on your repl's full-browser view back to your repl's cover
+
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+
   teal, blue, blurple, magenta, pink!
+
   -->
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+    <!--sorks ale musiałem to ukryć bo mi przeszkadzalo-->
+
+<!--  <script id="hiderp" src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+  -->
+
+  
+
+  
+
+  
+
 </body>
 
+
+
 </html>
+
+<script>
+
+setTimeout(function() {
+
+  var scriptTag = document.getElementById("hiderp");
+
+  
+
+  scriptTag.style.display = "none";
+
+}, 3000); // Ukryj po 3000 milisekundach (3 sekundy)
+
+</script>
+
+
+
+
+
+<style>
+
+  
+
+  
+
+  body{
+
+    position :fixed ;
+
+    width :100vw;
+
+    height :100vh;
+
+  }#desktop {
+
+  background: linear-gradient(to right, rgba(35, 159, 27, 1) 30%, rgba(40, 180, 30, 1) 30%);
+
+  background-size: 200% 200%;
+
+  animation: gradientAnimation 5s ease infinite;
+
+}
+
+
+
+@keyframes gradientAnimation {
+
+  0% {
+
+    background-position: 0% 50%;
+
+  }
+
+  50% {
+
+    background-position: 200% 50%;
+
+  }
+
+  100% {
+
+    background-position: 0% 50%;
+
+  }
+
+}
+
+
+
+
+
+  </style>
