@@ -197,3 +197,56 @@ document.addEventListener("mouseup", e => {
   loaderCursor.style.height = 28 * 1.4 + 'px';
 
 })
+
+// dots animation while wallpaper loads
+const wallpaperLoader = document.querySelector('#wallpaper-loader');
+
+wallpaperTextAnimation();
+setInterval(wallpaperTextAnimation, 4000);
+
+function wallpaperTextAnimation() {
+  wallpaperLoader.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;    ladowanie tapety';
+  setTimeout(wallpaperTextAnimation2, 1000);
+  if (!document.querySelector('#wallpaper-loader')) {
+    removeTimeout(wallpaperTextAnimation);
+    removeTimeout(wallpaperTextAnimation2);
+  }
+}
+function wallpaperTextAnimation2() {
+  wallpaperLoader.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;    ladowanie tapety.';
+  setTimeout(wallpaperTextAnimation3, 1000);
+}
+function wallpaperTextAnimation3() {
+  wallpaperLoader.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;    ladowanie tapety..';
+  setTimeout(wallpaperTextAnimation4, 1000);
+}
+function wallpaperTextAnimation4() {
+  wallpaperLoader.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;    ladowanie tapety...';
+}
+
+
+// dots animation while taskbar loads
+const taskbarLoader = document.querySelector('#taskbar-loader');
+
+taskbarTextAnimation();
+setInterval(taskbarTextAnimation, 4000);
+
+function taskbarTextAnimation() {
+  taskbarLoader.innerHTML = 'Trwa ładowanie paska zadań';
+  setTimeout(taskbarTextAnimation2, 1000);
+  if (!document.querySelector('#taskbar-loader')) {
+    removeTimeout(taskbarTextAnimation);
+    removeTimeout(taskbarTextAnimation2);
+  }
+}
+function taskbarTextAnimation2() {
+  taskbarLoader.innerHTML = 'Trwa ładowanie paska zadań.';
+  setTimeout(taskbarTextAnimation3, 1000);
+}
+function taskbarTextAnimation3() {
+  taskbarLoader.innerHTML = 'Trwa ładowanie paska zadań..';
+  setTimeout(taskbarTextAnimation4, 1000);
+}
+function taskbarTextAnimation4() {
+  taskbarLoader.innerHTML = 'Trwa ładowanie paska zadań...';
+}
