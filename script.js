@@ -14,13 +14,6 @@ function hideBlack() {
 
 setTimeout(loadOS, 2000);
 
-setTimeout(function (){
-
-  document.querySelector('#hiderp').scr=""
-
-  console.log('lol')
-
-},000)
 
 function showLoader() {
 
