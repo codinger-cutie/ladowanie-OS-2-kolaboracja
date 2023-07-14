@@ -1,4 +1,4 @@
-# loading Os
+# loading OS
 Project like ladowanie-OS but with me Kashumy on Codinger-cutie Repository :)
 
 
