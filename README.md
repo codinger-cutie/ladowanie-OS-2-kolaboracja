@@ -6,10 +6,10 @@ Project like ladowanie-OS but with me Kashumy on Codinger-cutie Repository :)
 
 piątek 7 07 2023y.
 ## Added
-- `desctop screen `
-- `mobile draging cursor`
-- `responsive `
-- `more lags and loadings `
+- `desktop screen`
+- `dragging the green cursor on mobile`
+- `responsive`
+- `more lags and loadings`
 
 # Plans
 1. Make ping-pong with loading ball
