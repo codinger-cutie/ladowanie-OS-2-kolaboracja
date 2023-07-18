@@ -1,10 +1,11 @@
 # loading OS
-Project like ladowanie-OS but with me Kashumy on Codinger-cutie Repository :)
+Project like [ladowanie-OS](https://github.com/codinger-cutie/ladowanie-OS) but with me Kashumy on codinger-cutie's Repository :)
 
 
-# 🎉 Folow Codinger-cutie ! ! ! 
+# 🎉 Follow Codinger-cutie ! ! ! 
 
-piątek 7 07 2023y.
+piątek 7 07 2023y.  
+friday 7/07/2023y.
 ## Added
 - `desktop screen`
 - `dragging the green cursor on mobile`
@@ -16,5 +17,5 @@ piątek 7 07 2023y.
 2. write bootloader
 3. distribution of a Linux with browser on load with fullscreen on Raspberry Pi
 4. add my BshBin lang to it
-BshBin is not published for now because this lang can only make functions and draw and be converted to html
+BshBin ~~is not published for now~~ [BshBin/ByteBinUtils](https://github.com/kashumy/ByteBinUtils) because this lang can only make functions and draw and be converted to html
 6. Make more stuffs
