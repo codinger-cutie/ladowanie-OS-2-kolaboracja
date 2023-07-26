@@ -243,3 +243,23 @@ function taskbarTextAnimation3() {
 function taskbarTextAnimation4() {
   taskbarLoader.innerHTML = 'Trwa ładowanie paska zadań...';
 }
+
+
+const authorLink = document.querySelector('a#author-link');
+
+authorLink.addEventListener("click", e => {
+  console.log(e);
+  e.stopPropagation();
+});
+
+const closeThiBtn = document.querySelector('#close-thi');
+
+const closeThiBtnText = document.querySelector('#close-thi-text');
+
+setInterval(e => {
+  if (document.querySelector('#close-thi:hover')) {
+    closeThiBtnText.innerHTML = 'Zakończ';
+  } else {
+    closeThiBtnText.innerHTML = 'X';
+  }
+}, 0);

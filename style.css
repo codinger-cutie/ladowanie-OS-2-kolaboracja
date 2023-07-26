@@ -21,3 +21,18 @@
     position: absolute;
     z-index: 2;
   }
+
+  #author-link {
+    color: white;
+  }
+  
+  #close-thi {
+    width: 20px;
+    overflow-x: hidden;
+    transition: 0.2s;
+  }
+  
+  #close-thi:hover {
+    width: 60px;
+  }
+  
