@@ -2,7 +2,7 @@
 Project like [ladowanie-OS](https://github.com/codinger-cutie/ladowanie-OS) but with me Kashumy on codinger-cutie's Repository :)
 
 
-# 🎉 Follow Codinger-cutie ! ! ! 
+# 🎉 Follow codinger-cutie ! ! ! 
 
 piątek 7 07 2023y.  
 friday 7/07/2023y.
